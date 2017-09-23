@@ -22,5 +22,6 @@ Maintainer packageMaintainer{Jorge Villar Fuentes}
 \seealso{https://en.wikipedia.org/wiki/Greatest_common_divisor.
 }
 \examples{
-mod_object <- lm(Petal.Length~Species, data = iris) print(mod_object)
+linreg_ex <- linreg$new(Petal.Length~Sepal.Width+Sepal.Length, data=iris)
+linreg_ex$summary()
 }
