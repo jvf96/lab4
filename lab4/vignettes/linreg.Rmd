@@ -1,0 +1,53 @@
+---
+title: "LAB4: A Linear Regression Package"
+author: "Jorge Villar Fuentes and Ashmaful Alam"
+date: "24 september 2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+We create a package to handle linear regression models. We will use linear algebra to create the most basic functionality in the R package. We will also implement an object oriented system to handle special functions such as `print()`, `plot()`, `resid()`, `pred()`, `coef()` and `summary()`. We will ﬁnish the package up by writing a vignette on how the package can be used to conduct a simple regression analysis using a dataset included in the package.
+
+- We will write the code for a multiple regression model
+- Implement diﬀerent “methods” for your object
+
+## Information
+
+There are diﬀerent design choices to make with diﬀerent levels of complexity.
+1. Implement the calculations using ordinary linear algebra or using the QR decomposition
+2. Implement the results as an S3 class or a RC class object
+3. Implement a theme() for the graphical proﬁle of Link¨oping University
+
+
+## LINEAR ALGEBRA:
+
+- Regressions coeﬃcients
+- The ﬁtted values
+- The residuals
+- The degrees of freedom
+- The residual variance
+- The variance of the regression coeﬃcients
+- The t-values for each coeﬃciens
+
+
+## METHODS:
+
+
+- print()
+- plot()
+- resid()
+- pred()
+- coef()
+- summary()
+
+## Examples:
+
+We use the data frame that is in R named iris
+
+linreg_mod <- linreg$new(Petal.Length~Sepal.Width+Sepal.Length, data=iris)
+linreg_mod$print()
+linreg_mod$plot()
+
