@@ -190,7 +190,7 @@ linreg <- setRefClass(
         cat(sep = "\n")
       }
       cat(sep = "\n")
-      cat("Residual standard error:", round(sqrt(var_sigma_hat), 2), "on", df_linreg, "degrees of freedom")
+      cat("Residual standard error:", round(sqrt(var_hat), 2), "on", df, "degrees of freedom")
     }
   )
 )
