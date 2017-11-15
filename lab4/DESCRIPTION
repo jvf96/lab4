@@ -15,6 +15,7 @@ Suggests: testthat,
     knitr,
     ggplot2,
     ggThemeAssist,
-    rmarkdown
+    rmarkdown,
+    methods
 Depends: R (>= 2.10)
 VignetteBuilder: knitr
