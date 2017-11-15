@@ -21,6 +21,7 @@
 #'         summary() should return a similar printout as printed for lm objects.
 #'         
 #' @import methods
+#' @importFrom("methods", "new")
 #' 
 #' @references \href{https://en.wikipedia.org/wiki/Linear_regression}{Linear Regression Model}
 #' @examples linreg_mod <- linreg$new(Petal.Length~Sepal.Width+Sepal.Length,data=iris)
