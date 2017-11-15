@@ -24,4 +24,4 @@ Maintainer packageMaintainer{Jorge Villar Fuentes}
 \examples{
 linreg_ex <- linreg$new(Petal.Length~Sepal.Width+Sepal.Length, data=iris)
 linreg_ex$summary()
-
+}
