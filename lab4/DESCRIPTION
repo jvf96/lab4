@@ -1,6 +1,6 @@
 Package: lab4
 Type: Package
-Title: Lab4 Assigment
+Title: lab4 Assigment
 Version: 1.0
 Date: 2017-09-23
 Authors@R: c(
@@ -11,5 +11,10 @@ Description: The lab constists of writing a package.
 License: CC0
 RoxygenNote: 6.0.1
 LazyData: true
-Suggests: testthat
+Suggests: testthat,
+    knitr,
+    ggplot2,
+    ggThemeAssist,
+    rmarkdown
 Depends: R (>= 2.10)
+VignetteBuilder: knitr
