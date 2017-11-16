@@ -14,7 +14,7 @@ print() should print out the coeﬃcients and coeﬃcient names,similar as done 
         summary() should return a similar printout as printed for lm objects.
 }
 \description{
-LAB 4
+In this lab we will will create a package to handle linear regression models.
 }
 \section{Fields}{
 
