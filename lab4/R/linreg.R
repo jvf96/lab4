@@ -1,4 +1,6 @@
 #' LAB 4
+#' 
+#' In this lab we will will create a package to handle linear regression models.
 #'
 #' @field formula formula.
 #' @field data data.frame.
