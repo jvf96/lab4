@@ -34,7 +34,7 @@
 #'  linreg_mod$summary()
 #'  linreg_mod$plot()
 #'           
-#' 
+#' @export
 
 #Create the function:
 linreg <- setRefClass(Class = "linreg",
