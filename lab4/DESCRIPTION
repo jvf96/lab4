@@ -14,8 +14,6 @@ LazyData: true
 Suggests: testthat,
     knitr,
     ggplot2,
-    ggThemeAssist,
-    rmarkdown,
-    methods
+    rmarkdown
 Depends: R (>= 2.10)
 VignetteBuilder: knitr
